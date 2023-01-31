@@ -68,6 +68,10 @@ a {
     margin-bottom: 80px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .underline {
     text-decoration: underline;
 }
