@@ -3,12 +3,50 @@ hr {
     border-width:0;
     background-color:#000000;
 }
-.cart {
+.center {
+    margin: auto;
+    width: auto;
     text-align: center;
-    margin-bottom: 80px;
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+}
+
+.product {
+    width: 310px;
+    margin: auto;
+    padding: 10px;
+    display: block;
+    text-align: left;
+}
+
+.product:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.product-detail {
+    width: 300px;
+    margin:auto;
+    padding:10px;
+    display:block;
+    text-align: left;
 }
 
 .body-text {
+    box-sizing: border-box;
+    width: 0;
+    min-width: 100%;
+    font-size: 21px;
+    margin: 0px;
+}
+
+.cart-text {
+    box-sizing: border-box;
+    width: 0;
+    min-width: 100%;
     font-size: 24px;
     margin: 0px;
 }
@@ -16,12 +54,24 @@ hr {
 .header {
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 60px;
 }
 
 .item {
+    width: 300;
+    height: 300px;
+    border: 3px solid black;
+}
+
+.item-cart {
     width: 125px;
     height: 125px;
+    border: 3px solid black;
+}
+
+.item-detail {
+    margin: auto;
+    width: 600px;
+    height: 500px;
     border: 3px solid black;
 }
 
@@ -33,7 +83,8 @@ hr {
 button {
     width: auto;
     height: auto;
-    margin: 10px;
+    margin-top: 20px;
+    margin: auto;
     padding: 12px 36px;
     font-size: 24px;
     background-color: yellow;
