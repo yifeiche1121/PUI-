@@ -1,19 +1,33 @@
 hr {
     height: 5px;
-    border-width:0;
-    background-color:#000000;
+    border-width: 0;
+    background-color: #000000;
 }
+
+.shorthr {
+    width : 60%;
+}
+
+/*center items*/
 .center {
     margin: auto;
     width: auto;
     text-align: center;
 }
 
+/*link without display*/
 a {
     text-decoration: none; 
     color: black; 
 }
 
+.logo {
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/*Align texts to left*/
 .product {
     width: 310px;
     margin: auto;
@@ -22,16 +36,18 @@ a {
     text-align: left;
 }
 
+/*hover highlight*/
 .product:hover {
     background-color: yellow;
     font-weight: bold;
 }
 
+/*center item, align text*/
 .product-detail {
     width: 300px;
-    margin:auto;
-    padding:10px;
-    display:block;
+    margin: auto;
+    padding: 10px;
+    display: block;
     text-align: left;
 }
 
@@ -41,6 +57,19 @@ a {
     min-width: 100%;
     font-size: 21px;
     margin: 0px;
+}
+
+/*spacing*/
+.margin20 {
+    margin-bottom: 20px;
+}
+
+.margin80 {
+    margin-bottom: 80px;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .cart-text {
@@ -89,4 +118,19 @@ button {
     font-size: 24px;
     background-color: yellow;
     border: 3px solid black;
+}
+
+.drop {
+    height: 50px; 
+    width: 300px; 
+    font-size: 21px;
+}
+
+/*spacing*/
+.addtc{
+    margin-top: 80px;
+}
+
+.addtc button {
+    margin-left: 20px;
 }
