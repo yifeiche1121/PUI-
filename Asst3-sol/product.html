@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PUI-Asst 2: Product Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="price.js"></script>
+    <div class="top">
+        <div class="left">
+            <a href="index.html"><img class="logo" src="img/logo-01.svg"> </a>
+        </div> 
+        <div class="right">
+            <div class="menu-item">
+                <ul>       
+                    <li><mark><a class="margin20 bold" href="index.html">PRODUCTS</a></mark></li>
+                    <li><a href="cart.html">CART</a></li>
+                </ul>
+            </div>
+            <hr class="margin80">
+            <p class="header">Original cinnamon rolls</p>
+        </div>
+    </div>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- Product detail -->
+        <img class="item-detail" src="img/original-cinnamon-roll.jpg"> 
+        <!-- Align -->
+        <div class="product-detail">
+            <p class="body-text margin20">Customize our hand-made, delicious cinnamon rolls to your liking!</p>
+            <!-- Drop menus -->
+            <label for="glazing" class="body-text"><p>Glazing:</p></label>
+            <select class="drop" name="glazing" id="glazingOptions" onchange="glazingChange(this)">
+                <option value="0.00" selected>Keep original</option>
+                <option value="0.00">Sugar milk</option>
+                <option value="0.50">Vanilla milk</option>
+                <option value="1.50">Double-chocolate</option>
+            </select>
+            <label for="p-size" class="body-text"><p>Pack size:</p></label>
+            <select class="drop" name="p-size" id="sizeOptions" onchange="sizeChange(this)">
+                <option value="1" selected>1</option>
+                <option value="3">3</option>
+                <option value="5">6</option>
+                <option value="10">12</option>
+            </select>
+            <!-- Add to cart -->
+            <div class="addtc product-cart">
+                <div class="cart-ele detail-price">
+                    <p class="price-text" id="price"><b>$ 2.49</b></p>
+                </div>
+                <div class="atcbutton">
+                    <button name="add" id="add"><b>Add to Cart</b></button>
+                </div>              
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
