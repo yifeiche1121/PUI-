@@ -14,6 +14,9 @@ function addToCart(){
     let packSize = packSizeElt.options[packSizeElt.selectedIndex].text
     let thisRoll = new Roll(rollType, rollGlazing, packSize, basePrice);
     cart = JSON.parse(localStorage.getItem("Cart"));
+    if (!cart) {
+        cart = [];
+    }
     cart.push(thisRoll);
     localStorage.setItem("Cart", JSON.stringify(cart));
     console.log(cart);

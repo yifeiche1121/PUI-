@@ -85,6 +85,9 @@ function displayProducts() {
     // clear previous display
     cart = JSON.parse(localStorage.getItem("Cart"));
     console.log(cart);
+    if (!cart) {
+        cart = [];
+    }
     let prod_cart = document.getElementById("prod-cart");
     prod_cart.replaceChildren();
     totalPrice = 0;
