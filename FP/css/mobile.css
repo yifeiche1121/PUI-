@@ -330,26 +330,18 @@
     overflow: hidden;
   }
   #quote-left {
-    color: rgba(186,232,111,1);
     position: absolute;
     top: 0px;
     left: 0px;
-    font-family: IM FELL French Canon;
-    font-weight: Regular;
-    font-size: 40px;
+    height: 40px;
     opacity: 1;
-    text-align: left;
   }
   #quote-right {
-    color: rgba(186,232,111,1);
     position: absolute;
     top: 48%;
     right: 2%;
-    font-family: IM FELL French Canon;
-    font-weight: Regular;
-    font-size: 40px;
+    height: 40px;
     opacity: 1;
-    text-align: left;
   }
   .exerpt {
     width: auto;
