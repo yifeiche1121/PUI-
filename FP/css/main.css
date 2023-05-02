@@ -416,27 +416,19 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
 #quote-left {
-  color: rgb(169, 218, 92);
   position: absolute;
   top: 0px;
   left: 0px;
-  font-family: IM FELL French Canon;
-  font-weight: Regular;
-  font-size: 80px;
   opacity: 1;
-  text-align: left;
 }
+
 #quote-right {
-  color: rgb(169, 218, 92);
   position: absolute;
   top: 48%;
   right: 5%;
-  font-family: IM FELL French Canon;
-  font-weight: Regular;
-  font-size: 80px;
   opacity: 1;
-  text-align: left;
 }
 .exerpt {
   width: auto;
