@@ -23,10 +23,10 @@
   
   #rec-heading {
     width: 25%;
-    height: 4%;
+    height: 6%;
     opacity: 1;
     position: absolute;
-    top: 14%;
+    top: 15%;
     left: 35%;
     overflow: hidden;
   }
@@ -69,7 +69,7 @@
   .name {
     width: 30%;
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: 3%;
     font-family: IM FELL French Canon;
     font-weight: Regular;
