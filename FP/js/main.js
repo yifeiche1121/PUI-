@@ -1,3 +1,4 @@
+// change colorTheme 
 var colorTheme;
 var poem_list = ["moon", "cloud", "spring", "glance", "invitation"];
 function changeColorTheme(e) {
@@ -67,7 +68,7 @@ function drawColorTheme() {
 }
 
 
-
+// Update title in menu
 var selected_title;
 
 function updateTitle(e) {

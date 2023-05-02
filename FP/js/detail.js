@@ -24,10 +24,12 @@ for (let i = 0; i < texts.length; i ++) {
 
 // create img
 let imgs = poems[selected_title]["imgs"];
+let alts = poems[selected_title]["imgs-alt"];
 let poem_img = document.getElementById("poem-img-container");
 for (let i = 0; i < imgs.length; i ++) {
     let img_el = document.createElement("img")
     img_el.src = "images/" + imgs[i];
+    img_el.alt = alts[i];
     img_el.classList.add("detail-img");
     poem_img.appendChild(img_el);
 }
