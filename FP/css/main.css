@@ -417,7 +417,7 @@ body {
   overflow: hidden;
 }
 #quote-left {
-  color: rgba(186,232,111,1);
+  color: rgb(169, 218, 92);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -428,7 +428,7 @@ body {
   text-align: left;
 }
 #quote-right {
-  color: rgba(186,232,111,1);
+  color: rgb(169, 218, 92);
   position: absolute;
   top: 48%;
   right: 5%;
