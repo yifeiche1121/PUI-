@@ -1,0 +1,521 @@
+* {
+  box-sizing: border-box;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+}
+
+a {
+  text-decoration:none;
+  color: black;
+}
+
+a:hover {
+  text-decoration:none;
+  color: #a3a3a3 !important;
+}
+
+body {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  background: url("../images/paper.png") no-repeat center fixed 0.5;     
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  color: black;
+}
+
+#rec-heading {
+  width: 25%;
+  height: 18%;
+  opacity: 1;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  overflow: hidden;
+}
+
+#rec-heading-about {
+  width: 30%;
+  height: 5%;
+  opacity: 1;
+  position: absolute;
+  top: 9%;
+  left: 0;
+  overflow: hidden;
+}
+
+#rec-frag {
+  width: 3%;
+  height: 2%;
+  opacity: 1;
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  overflow: hidden;
+}
+#rec-about {
+  width: 4%;
+  height: 2%;
+  opacity: 1;
+  position: absolute;
+  top: 3%;
+  left: 44%;
+  overflow: hidden;
+}
+#rec-name {
+  width: 15%;
+  height: 5%;
+  opacity: 1;
+  position: absolute;
+  top: 69%;
+  right: 51%;
+  overflow: hidden;
+}
+
+#rec-name-about {
+  width: 10%;
+  height: 4%;
+  opacity: 1;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  overflow: hidden;
+}
+
+.heading {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.heading-about {
+  width: 35%;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  width: 10%;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.name-about {
+  width: 10%;
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.frag {
+  width: 100px;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.about {
+  width: 100px;
+  position: absolute;
+  top: 1%;
+  left: 42%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.color-theme {
+  width: 20%;
+  height: 20px;
+  margin: 25px;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  overflow: hidden;
+}
+.white {
+  width: 20px;
+  height: 20px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  border: black solid 2px;
+}
+.black {
+  width: 20px;
+  height: 20px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 45px;
+  border-radius: 50%;
+}
+.pink {
+  width: 20px;
+  height: 20px;
+  background: rgba(255,225,234,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  border-radius: 50%;
+}
+
+.about-container {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+
+.about-text {
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 16px;
+  text-align: left;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.lang {
+  width: 175px;
+  height: 24px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+.cn {
+  width: 54px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: FangSong;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.en {
+  width: 91px;
+  position: absolute;
+  top: 0px;
+  left: 84px;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.line {
+  border-left: 1px solid black;
+  position: absolute;
+  height: 100%;
+  left: 40%;
+}
+#rec-en {
+  width: 70px;
+  height: 20px;
+  opacity: 1;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+}
+#rec-cn {
+  width: 70px;
+  height: 20px;
+  opacity: 1;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+}
+
+.left-arrow {
+  height: 15px;
+  position: absolute;
+  left: 52%;
+  top: 1.5%;
+}
+.menu {
+  width: 20%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 52%;
+  overflow: auto;
+}
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  width: auto;
+  height: auto;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.selected-title {
+  width: auto;
+  height: 100px;
+  left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.selected {
+  width: 342px;
+  position: absolute;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.color-changes {
+  opacity: 1;
+}
+
+.green-bg {
+  background: #BBE96F;
+}
+
+.dark-green-bg {
+  background: #587D41;
+}
+
+#rec-moon {
+  width: 220px;
+  height: 38px;
+  position: absolute;
+  top: 25px;
+  left: 26px;
+}
+
+#rec-cloud {
+  width: 233px;
+  height: 38px;
+  position: absolute;
+  top: 25px;
+  left: 26px;
+}
+#rec-spring {
+  width: 130px;
+  height: 38px;
+  
+  position: absolute;
+  top: 25px;
+  left: 26px;
+}
+#rec-glance {
+  width: 190px;
+  height: 38px;
+  
+  position: absolute;
+  top: 25px;
+  left: 26px;
+}
+
+#rec-invitation {
+  width: 233px;
+  height: 38px;
+  
+  position: absolute;
+  top: 25px;
+  left: 26px;
+}
+
+.right-container {
+  width: 25%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 8%;
+  right: 2%;
+}
+#poem-img {
+  width: 100%;
+}
+
+
+.poem-about {
+  width: auto;
+  position: absolute;
+  top: 40%;
+  left: 8px;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.descrip {
+  width: auto;
+  position: absolute;
+  top: 43%;
+  right: 5%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: right;
+}
+
+.exerpt-container {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 45%;
+  left: 0px;
+  overflow: hidden;
+}
+#quote-left {
+  color: rgba(186,232,111,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 80px;
+  opacity: 1;
+  text-align: left;
+}
+#quote-right {
+  color: rgba(186,232,111,1);
+  position: absolute;
+  top: 48%;
+  right: 5%;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 80px;
+  opacity: 1;
+  text-align: left;
+}
+.exerpt {
+  width: auto;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  opacity: 1;
+  text-align: left;
+}
+
+#exerpt-text {
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 16px;
+  margin: 5px;
+}
+.read {
+  width: 195px;
+  height: 41px;
+  position: absolute;
+  bottom: 20%;
+  right: 1%;
+}
+#rec-read {
+  width: 70%;
+  height: 60%;
+  opacity: 1;
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+}
+
+.read-text {
+  width: 156px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: IM FELL French Canon;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.right-arrow {
+  height: 15px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#poem-img-container {
+  transition: transform 0.5s ease-in;
+  width: 17%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 8%;
+  left: 110%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-img {
+  height: 30%;
+}
+
+#poem-text {
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  top: 8%;
+  left: 52%;
+  overflow: auto;
+  font-size: 16px;
+}
+
+.hover-text:hover {
+  color: #BBE96F;
+}
+

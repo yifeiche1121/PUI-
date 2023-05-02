@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=IM Fell French Canon' rel='stylesheet'>        <link href="https://fonts.googleapis.com/css?family=FangSong&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" media="screen" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" media="(max-width: 599px)" href="css/mobile.css"/>
+        <script defer src="js/poems.js"></script>
+        <script defer src="js/main.js"></script>
+        <script defer src="js/detail.js"></script>
+        <title>Document</title>
+    </head>
+    <body onload="drawColorTheme();">
+        <div class="vl"></div>
+        <div class="color-changes green-bg" id="rec-heading"></div>
+        <div class="color-changes green-bg" id="rec-frag"></div>
+        <div class="color-changes green-bg" id="rec-name"></div>
+        <span class="heading">Fragments of Consciousness</span>
+        <span class="name">Yifei Chen</span>
+        <span class="frag">Frag.</span>
+        <div class="color-theme">
+            <div class="white" id="white-button" onclick="changeColorTheme(this)"></div>
+            <div class="black" id="black-button" onclick="changeColorTheme(this)"></div>
+            <div class="pink" id="pink-button" onclick="changeColorTheme(this)"></div>
+        </div>
+        <a id="return" href="index.html"><img src="images/left.png" class="left-arrow"></a>
+        <div class="lang">
+            <div class="line"></div>
+            <div class="color-changes green-bg" id="rec-en"></div>
+            <span class="cn">中文</span>
+            <span class="en">English</span>    
+        </div>
+        <div id="poem-text" onclick="slideImg();">
+        </div>
+        <div id="poem-img-container">         
+        </div>        
+    </body>
+</html>

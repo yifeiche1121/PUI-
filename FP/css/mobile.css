@@ -1,0 +1,436 @@
+* {
+    box-sizing: border-box;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+  }
+  
+  a {
+    text-decoration:none;
+    color: black;
+  }
+  
+  body {
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    background: white;     
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    color: black;
+  }
+  
+  #rec-heading {
+    width: 25%;
+    height: 4%;
+    opacity: 1;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    overflow: hidden;
+  }
+  
+  
+  #rec-frag {
+    width: 5%;
+    height: 2%;
+    opacity: 1;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    overflow: hidden;
+  }
+
+  #rec-name {
+    width: 15%;
+    height: 2%;
+    opacity: 1;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    overflow: hidden;
+    display: none;
+  }
+  
+  
+  .heading {
+    width: 70%;
+    position: absolute;
+    top: 7%;
+    left: 2%;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .name {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .frag {
+    width: 100px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .color-theme {
+    width: 40%;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    margin: 0;
+  }
+  .white {
+    width: 15px;
+    height: 15px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    border: black solid 2px;
+  }
+  .black {
+    width: 15px;
+    height: 15px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    border-radius: 50%;
+  }
+  .pink {
+    width: 15px;
+    height: 15px;
+    background: rgba(255,225,234,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    border-radius: 50%;
+  }
+  
+  
+  .vl {
+    border-left: 2px solid black;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  .lang {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    top: 2%;
+    right: 0%;
+  }
+  .cn {
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: FangSong;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .en {
+    width: 75px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .line {
+    border-left: 1px solid black;
+    position: absolute;
+    height: 100%;
+    left: 35%;
+  }
+  #rec-en {
+    width: 40px;
+    height: 15px;
+    opacity: 1;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+  }
+  #rec-cn {
+    width: 70px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+  }
+  
+  .left-arrow {
+    height: 15px;
+    position: absolute;
+    left: 1%;
+    top: 27%;
+  }
+  .menu {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 28%;
+    left: 2%;
+    overflow: auto;
+  }
+  .menu::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .selected-title {
+    width: auto;
+    height: 40px;
+    left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .selected {
+    width: 342px;
+    position: absolute;
+    font-family: IM FELL French Canon;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .color-changes {
+    opacity: 1;
+  }
+  
+  .green-bg {
+    background: #BBE96F;
+  }
+  
+  .dark-green-bg {
+    background: #587D41;
+  }
+  
+  #rec-moon {
+    width: 80px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: 26px;
+  }
+  
+  #rec-cloud {
+    width: 80px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: 26px;
+  }
+  #rec-spring {
+    width: 50px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: 26px;
+  }
+  #rec-glance {
+    width: 70px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: 26px;
+  }
+  
+  #rec-invitation {
+    width: 100px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: 26px;
+  }
+  
+  .right-container {
+    width: 50%;
+    height: 75%;
+    opacity: 1;
+    position: absolute;
+    top: 27%;
+    right: 2%;
+  }
+
+  #poem-img {
+    width: 100%;
+  }
+  
+  
+  .poem-about {
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 8px;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .exerpt-container {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 32%;
+    left: 0px;
+    overflow: hidden;
+  }
+  #quote-left {
+    color: rgba(186,232,111,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+  }
+  #quote-right {
+    color: rgba(186,232,111,1);
+    position: absolute;
+    top: 48%;
+    right: 2%;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+  }
+  .exerpt {
+    width: auto;
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  #exerpt-text {
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 15px;
+    margin: 0px;
+  }
+  .read {
+    width: 195px;
+    height: 41px;
+    position: absolute;
+    bottom: 20%;
+    right: 1%;
+  }
+  #rec-read {
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+  }
+  
+  .read-text {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: IM FELL French Canon;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .right-arrow {
+    height: 12px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  #poem-img-container {
+    transition: transform 0.5s ease-in;
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .detail-img {
+    width: 90%;
+    height: auto;
+  }
+  
+  #poem-text {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    overflow: auto;
+    font-size: 15px;
+  }
+
+  #poem-text::-webkit-scrollbar {
+    display: none;
+  }
+  
+  

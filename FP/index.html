@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/main.css"/>
+        <link rel="stylesheet" media="(max-width: 599px)" href="css/mobile.css"/>
+        <link href='https://fonts.googleapis.com/css?family=IM Fell French Canon' rel='stylesheet'>        <link href="https://fonts.googleapis.com/css?family=FangSong&display=swap" rel="stylesheet" />
+        <script defer src="js/poems.js"></script>
+        <script defer src="js/main.js"></script>
+        <script defer src="js/menu.js"></script>
+        <title>Document</title>
+    </head>
+    <body onload="drawAll();">
+        <div class="vl"></div>
+        <div class="color-changes green-bg" id="rec-heading"></div>
+        <div class="color-changes green-bg" id="rec-frag"></div>
+        <div class="color-changes green-bg" id="rec-name"></div>
+        <span class="heading">Fragments of Consciousness</span>
+        <span class="name">Yifei Chen</span>
+        <span class="frag">Frag.</span>
+        <div class="color-theme">
+            <div class="white" id="white-button" onclick="changeColorTheme(this)"></div>
+            <div class="black" id="black-button" onclick="changeColorTheme(this)"></div>
+            <div class="pink" id="pink-button" onclick="changeColorTheme(this)"></div>
+        </div>
+        <div class="lang">
+            <div class="line"></div>
+            <div class="color-changes green-bg" id="rec-en"></div>
+            <span class="cn">中文</span>
+            <span class="en">English</span>    
+        </div>
+        <div class="menu">           
+            <div id="title-moon" class="selected-title">
+                <div class="color-changes green-bg" id="rec-moon"></div>
+                <a href="index.html?poem=moon"><p id="moon" class="selected title" onclick="updateTitle(this);">The Moon</p></a>
+            </div> 
+            <div id="title-cloud" >
+                <div id="rec-cloud"></div>
+                <a href="index.html?poem=cloud"><p id="cloud" class="title" onclick="updateTitle(this);">The Clouds</p></a>
+            </div> 
+            <div id="title-spring" >
+                <div id="rec-spring"></div>
+                <a href="index.html?poem=spring"><p id="spring" class="title" onclick="updateTitle(this);">Spring</p></a>  
+            </div> 
+            <div id="title-glance" >
+                <div id="rec-glance"></div>
+                <a href="index.html?poem=glance"><p id="glance" class="title" onclick="updateTitle(this);">A Glance</p></a> 
+            </div> 
+            <div id="title-invitation" >
+                <div id="rec-invitation"></div>
+                <a href="index.html?poem=invitation"><p id="invitation" class="title" onclick="updateTitle(this);">An Invitation</p></a>
+            </div> 
+            
+        </div>
+        <div class="right-container">
+            <img src="images/moon.png" id="poem-img">
+            <div class="exerpt-container">
+                <span id="quote-left">“</span>
+                <span id="quote-right">”</span>
+                <span class="exerpt">
+                    <p id="exerpt-text">My eyes are a mirror<br>
+                                           Reflecting a facade<br>
+                                           Who never knows <br>     
+                                           Lancelot<br>   
+                                           Reflecting an eternal silence</p>                                                 
+                </span>
+            </div>
+            <div class="read">
+                <div class="color-changes green-bg" id="rec-read"></div>
+                <span class="read-text"><a href="poem.html">Read full text</a></span>
+                <img src="images/right.png" class="right-arrow">
+            </div>
+        </div>        
+    </body>
+</html>
