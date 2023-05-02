@@ -333,14 +333,14 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 40px;
+    height: 15px;
     opacity: 1;
   }
   #quote-right {
     position: absolute;
-    top: 48%;
+    top: 60%;
     right: 2%;
-    height: 40px;
+    height: 15px;
     opacity: 1;
   }
   .exerpt {
@@ -355,7 +355,7 @@
   #exerpt-text {
     font-family: IM FELL French Canon;
     font-weight: Regular;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0px;
   }
   .read {
