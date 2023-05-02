@@ -8,6 +8,7 @@ if (!selected_title) {
 let title = poems[selected_title]["title"];
 let title_el = document.createElement("p")
 title_el.classList.add("title");
+title_el.classList.add("poem-title");
 title_el.classList.add("hover-text");
 title_el.innerHTML = title;
 let poem_text = document.getElementById("poem-text");

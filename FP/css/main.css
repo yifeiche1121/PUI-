@@ -497,6 +497,10 @@ body {
   height: 30%;
 }
 
+.poem-title {
+  font-size: 40px;
+}
+
 #poem-text {
   width: 30%;
   height: 90%;
